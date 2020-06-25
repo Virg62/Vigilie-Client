@@ -34,7 +34,7 @@ L'ordinateur doit contenir les outils suivants :
 
 - NPM
 
-- Cordova (moteur de l'application) ```bash npm install -g cordova```
+- Cordova (moteur de l'application) ```npm install -g cordova```
 
 ## Installation
 
