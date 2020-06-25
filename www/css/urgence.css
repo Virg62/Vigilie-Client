@@ -1,0 +1,55 @@
+.title {
+    margin-top: 0.5cm;
+    color: #7172C0;
+    font-size: 25px;
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.text-top {
+    color: #7172C0;
+    font-weight: bold;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+.buttons {
+    text-align: center;
+}
+.buttons button {
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    /*border: solid 2px;*/
+}
+.btn-1 {
+    border: solid 2px #4997D6;
+    color: #4997D6;
+}
+.btn-2 {
+    border: solid 2px #7172C0;
+    color: #7172C0;
+}
+.btn-3 {
+    border: solid 2px #E5238F;
+    color: #E5238F;
+}
+.back {
+    margin-top: 30%;
+    text-align: center;
+}
+.back button {
+    width: 50%;
+    background-color: transparent;
+    border: solid 2px #7172C0;
+    color: #7172C0;
+}
+.fixed-logo {
+    position: absolute;
+    height: 20%;
+    right:0;
+    top:0;
+}

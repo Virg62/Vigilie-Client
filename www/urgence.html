@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <title>Vigilie - Urgence</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/urgence.css">
+</head>
+<body>
+    <div class="container">
+        <img class="fixed-logo" src="media/img/logo.png">
+        <div class="title">URGENCE</div>
+        <div class="text-top">
+            Vous n'êtes pas connecté(e), cependant vous avez tout de même accès à certains services d'urgence<br>
+            (si vous ne savez qui appeler : pompiers)
+        </div>
+        <div class="row">
+            <div class="col-sm-0 col-md-4 col-lg-4"></div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="buttons">
+                    <button class="btn-1" id="mairie">MAIRIE</button><br>
+                    <button class="btn-2" id="pompiers">POMPIERS</button><br>
+                    <button class="btn-3" id="police">POLICE</button>
+                </div>
+                <div class="back">
+                    <button id="back">ANNULER</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/urgence.js"></script>
+</body>
+</html>

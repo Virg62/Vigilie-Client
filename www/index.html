@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'"> -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/master.js"></script>
+    <script type="text/javascript" src="js/jquery3.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <title>Vigilie</title>
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="row">
+            <div class="col-sm-0 col-md-4 col-lg-4"></div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="master">
+                <div class="title">Bienvenue sur Vigilie !</div>
+                <div class="logo-carry">
+                    <img src="media/img/logo.png"> 
+                </div>
+                <div class="buttons">
+                    <button class="btn-1" id="register">Inscription</button><br>
+                    <button class="btn-2" id="login">Connexion</button><br>
+                    <button class="btn-3" id="urgency">Urgence</button>
+                    <!-- <button onclick="check_connection()">test</button> -->
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/accueil.js"></script>
+    <div class="modal fade" id="masterModal" tabindex="-1" role="dialog" aria-labelledby="modale_erreur" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="master_modal_title">Erreur</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="master_modal_body">
+              Une erreur est survenue.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal" id="loadModal" tabindex="-1" role="dialog" aria-labelledby="modale_chargement" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="load_modal_title">Chargement</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              </button>
+            </div>
+            <div class="modal-body" id="load_modal_body">
+              Envoi des données en cours ...<br>Veuillez Patienter.
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" id="load-pb" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 99.99%"></div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        window.current_page="index";
+          if(check_connection() && getUserToken() != false) {
+              change_page("home");
+          }
+      </script>
+</body>
+</html>

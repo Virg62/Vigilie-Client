@@ -1,0 +1,54 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.bez4pieci.cookies": {
+      "PACKAGE_NAME": "fr.virgile62150.vigilie.client"
+    },
+    "cordova-plugin-camera": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "fr.virgile62150.vigilie.client"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "fr.virgile62150.vigilie.client"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "fr.virgile62150.vigilie.client"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "fr.virgile62150.vigilie.client"
+    },
+    "cordova-plugin-firebasex": {
+      "FIREBASE_ANALYTICS_COLLECTION_ENABLED": "true",
+      "FIREBASE_PERFORMANCE_COLLECTION_ENABLED": "true",
+      "FIREBASE_CRASHLYTICS_COLLECTION_ENABLED": "true",
+      "ANDROID_ICON_ACCENT": "#FF00FFFF",
+      "ANDROID_PLAY_SERVICES_TAGMANAGER_VERSION": "17.0.0",
+      "ANDROID_PLAY_SERVICES_AUTH_VERSION": "18.0.0",
+      "ANDROID_FIREBASE_ANALYTICS_VERSION": "17.4.0",
+      "ANDROID_FIREBASE_MESSAGING_VERSION": "20.1.6",
+      "ANDROID_FIREBASE_CONFIG_VERSION": "19.1.4",
+      "ANDROID_FIREBASE_PERF_VERSION": "19.0.7",
+      "ANDROID_FIREBASE_AUTH_VERSION": "19.3.1",
+      "ANDROID_FIREBASE_INAPPMESSAGING_VERSION": "19.0.6",
+      "ANDROID_FIREBASE_FIRESTORE_VERSION": "21.4.3",
+      "ANDROID_CRASHLYTICS_VERSION": "2.10.1",
+      "ANDROID_CRASHLYTICS_NDK_VERSION": "2.1.1",
+      "ANDROID_GSON_VERSION": "2.8.6",
+      "PACKAGE_NAME": "fr.virgile62150.vigilie.client"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-androidx": {
+      "PACKAGE_NAME": "fr.virgile62150.vigilie.client"
+    },
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "fr.virgile62150.vigilie.client"
+    }
+  }
+}
